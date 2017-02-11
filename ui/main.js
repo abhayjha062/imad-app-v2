@@ -7,9 +7,9 @@ var marginRight=0;
 function moveLeft()
 {
    marginRight=marginRight + 10;
-    img.style.marginRight=marginRight+ 'px';
+    img.style.marginRight=marginRight + 'px';
 }
 img.onclick=function()
 {
-    var internal=setInternal(moveLeft,50);
+    var internal=setInterval(moveLeft,50);
 };
