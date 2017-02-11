@@ -1,1 +1,15 @@
 console.log('Loaded!');
+//change the text of main-text div
+var element=document.getElementById('main-text');
+element.innerHTML='New value';
+var img=document.getElementById('madi');
+var marginRight=0;
+function moveLeft()
+{
+    marginRight + 10;
+    img.style.marginRight + 'px';
+}
+img.onclick=function()
+{
+    var internal=setInternal(moveLeft,50);
+};
