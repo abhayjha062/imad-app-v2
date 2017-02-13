@@ -42,7 +42,7 @@ submit.onclick = function() {
     //Not done yet
 };
 //Make a Request
-request.open('GET','http://abhayjha062.imad.hasura-app.io/submit-name?name'+ name, true);
+request.open('GET','http://abhayjha062.imad.hasura-app.io/submit-name?name='+ name, true);
 request.send(null);
 };
    
